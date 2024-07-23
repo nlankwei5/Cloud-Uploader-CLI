@@ -29,6 +29,9 @@ Update package index:
 - sudo apt install awscli
 This installs the AWS CLI along with its dependencies.
 
+## Uploading a File to S3
+To upload a file to your S3 bucket:
+
 #### ./clouduploader.sh /path/to/local/file.txt s3://your-bucket-name/destination/
 
 Replace /path/to/local/file.txt with the path to your local file and s3://your-bucket-name/destination/ with your S3 bucket destination.
