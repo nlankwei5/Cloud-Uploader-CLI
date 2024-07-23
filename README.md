@@ -29,7 +29,7 @@ Update package index:
 - sudo apt install awscli
 This installs the AWS CLI along with its dependencies.
 
-<a href="/Screenshot 2024-07-23 at 6.54.44 PM.png">
+<a href="/Screenshot 2024-07-23 at 6.54.44 PM.png"><>
 Replace /path/to/local/file.txt with the path to your local file and s3://your-bucket-name/destination/ with your S3 bucket destination.
 
 ## Additional Notes
