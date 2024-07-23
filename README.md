@@ -31,6 +31,7 @@ This installs the AWS CLI along with its dependencies.
 
 ## Uploading a File to S3
 To upload a file to your S3 bucket:
+Type the command below with its parameters in the command line
 
 #### ./clouduploader.sh /path/to/local/file.txt s3://your-bucket-name/destination/
 
