@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # Log file for recording events and troubleshooting
 logfile="clouduploader.log"
 
