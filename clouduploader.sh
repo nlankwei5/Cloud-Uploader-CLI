@@ -94,12 +94,6 @@ file_sync() {
 # Perform file synchronization if needed
 file_sync
 
-# Check the result of the upload
-if aws s3 ls "$S3_DESTINATION$file_name"; then
-    echo "Upload process completed successfully."
-else
-    echo "Upload process encountered an error."
-fi
 
 # Generate and display shareable link post-upload
 presigned_url=$(aws s3 presign "$S3_DESTINATION$file_name" --expires-in 3600)
