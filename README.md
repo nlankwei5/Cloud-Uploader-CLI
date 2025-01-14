@@ -44,3 +44,6 @@ Replace /path/to/local/file.txt with the path to your local file and s3://your-b
 * Troubleshooting
 * Check the clouduploader.log file for detailed logs of upload events and errors.
 * Verify AWS CLI configuration and permissions if you encounter access or upload issues.
+
+
+Feel free to make this code better
